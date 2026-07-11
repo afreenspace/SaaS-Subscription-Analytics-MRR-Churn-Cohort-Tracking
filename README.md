@@ -46,3 +46,13 @@ StageWhat was built1. Data generationSynthetic subscription ledger modeled on re
 ## 👤 Author
 
 Built by Afreen as part of a self-taught data analyst portfolio, targeting data analyst roles at MNCs (TCS, Infosys, Accenture, Capgemini). Third project in the series, following an IT Service Desk SLA Compliance dashboard.
+
+## ▶ Usage
+
+- Open `SaaS_Subscription_Data.xlsx` in Excel (desktop) to view the dashboard, cohort matrix, and supporting tables.
+- Typical sheets: `Raw_Data`, `Customer_Master`, `Subscription_Ledger`, `Cohort_Retention`, `Dashboard`.
+- All metrics are computed with Excel formulas (SUMIFS/COUNTIFS/XLOOKUP/EDATE); no external code is required.
+
+## 📄 License
+
+This repository is distributed under the MIT License. See `LICENSE` for details.
