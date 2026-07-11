@@ -20,7 +20,15 @@ Subscription revenue isn't static — every month, customers join, upgrade, down
 
 ## 🛠️ Methodology
 
-StageWhat was built1. Data generationSynthetic subscription ledger modeled on real SaaS billing exports2. Data structuringExcel Tables, verified date typing, clean sheet architecture3. Core metricsSUMIFS / COUNTIFS / AVERAGEIFS for active customers, total MRR, avg MRR per customer4. MRR movementNew / Expansion / Contraction / Churned MRR, using a Prior-Month-MRR lookup pattern5. Churn & growth ratesMonthly customer churn rate and MRR growth rate6. Cohort retention21-cohort × 12-month retention matrix, conditional-formatted as a heatmap7. Waterfall chartMonth-over-month MRR bridge (Starting → New → Expansion → Contraction → Churn → Ending)8. DashboardKPI cards, trend charts, and Plan/Region/Acquisition Channel breakdowns
+StageWhat was built
+1. Data generationSynthetic subscription ledger modeled on real SaaS billing exports
+2. Data structuringExcel Tables, verified date typing, clean sheet architecture
+3. Core metricsSUMIFS / COUNTIFS / AVERAGEIFS for active customers, total MRR, avg MRR per customer
+4. MRR movementNew / Expansion / Contraction / Churned MRR, using a Prior-Month-MRR lookup pattern
+5. Churn & growth ratesMonthly customer churn rate and MRR growth rate
+6. Cohort retention21-cohort × 12-month retention matrix, conditional-formatted as a heatmap
+7. Waterfall chartMonth-over-month MRR bridge (Starting → New → Expansion → Contraction → Churn → Ending)
+8. DashboardKPI cards, trend charts, and Plan/Region/Acquisition Channel breakdowns
 
 ## 🔍 Key Findings
 
