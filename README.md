@@ -1,12 +1,40 @@
 # SaaS Subscription Analytics — MRR, Churn & Cohort Retention
 
+# SaaS Subscription Analytics — MRR, Churn & Cohort Retention
+
 An Excel-based analytics project simulating the monthly revenue analysis performed by Revenue Operations / Business Analyst teams at subscription-based (SaaS) companies. Built as part of a self-directed data analyst portfolio.
+
+## 📁 Repository Structure
+SaaS-Subscription-Analytics-MRR-Churn-Cohort-Tracking/
+├── Data/
+│ └── SaaS_Subscription_Data.xlsx
+├── Screenshots/
+│ ├── Key_Metrics_Dashboard.png
+│ ├── Cohort_Retention.png
+│ ├── Plan_Region_Summary.png
+│ └── Waterfall_Data.png
+├── README.md
+└── LICENSE
 
 ## 📌 Overview
 
 Subscription revenue isn't static — every month, customers join, upgrade, downgrade, and cancel. This project tracks that movement end-to-end: from raw subscription events to a full KPI dashboard, using a synthetic-but-realistic dataset modeled on how real SaaS billing systems (e.g. Stripe, Chargebee) export data.
 
 **Business question answered:** *Is this company actually growing, and which customers/plans/channels are driving growth or leaking revenue?*
+
+## 📸 Dashboard Preview
+
+**KPI Dashboard & Active Customers Trend**
+![Key Metrics Dashboard](Screenshots/Key_Metrics_Dashboard.png)
+
+**Cohort Retention Heatmap**
+![Cohort Retention](Screenshots/Cohort_Retention.png)
+
+**Plan / Region / Channel Breakdown**
+![Plan Region Summary](Screenshots/Plan_Region_Summary.png)
+
+**MRR Waterfall (Month-over-Month Bridge)**
+![Waterfall Data](Screenshots/Waterfall_Data.png)
 
 ## 📁 Dataset
 
@@ -20,15 +48,16 @@ Subscription revenue isn't static — every month, customers join, upgrade, down
 
 ## 🛠️ Methodology
 
-StageWhat was built
-1. Data generationSynthetic subscription ledger modeled on real SaaS billing exports
-2. Data structuringExcel Tables, verified date typing, clean sheet architecture
-3. Core metricsSUMIFS / COUNTIFS / AVERAGEIFS for active customers, total MRR, avg MRR per customer
-4. MRR movementNew / Expansion / Contraction / Churned MRR, using a Prior-Month-MRR lookup pattern
-5. Churn & growth ratesMonthly customer churn rate and MRR growth rate
-6. Cohort retention21-cohort × 12-month retention matrix, conditional-formatted as a heatmap
-7. Waterfall chartMonth-over-month MRR bridge (Starting → New → Expansion → Contraction → Churn → Ending)
-8. DashboardKPI cards, trend charts, and Plan/Region/Acquisition Channel breakdowns
+| Stage | What was built |
+|---|---|
+| 1. Data generation | Synthetic subscription ledger modeled on real SaaS billing exports |
+| 2. Data structuring | Excel Tables, verified date typing, clean sheet architecture |
+| 3. Core metrics | SUMIFS / COUNTIFS / AVERAGEIFS for active customers, total MRR, avg MRR per customer |
+| 4. MRR movement | New / Expansion / Contraction / Churned MRR, using a Prior-Month-MRR lookup pattern |
+| 5. Churn & growth rates | Monthly customer churn rate and MRR growth rate |
+| 6. Cohort retention | 21-cohort × 12-month retention matrix, conditional-formatted as a heatmap |
+| 7. Waterfall chart | Month-over-month MRR bridge (Starting → New → Expansion → Contraction → Churn → Ending) |
+| 8. Dashboard | KPI cards, trend charts, and Plan/Region/Acquisition Channel breakdowns |
 
 ## 🔍 Key Findings
 
@@ -48,8 +77,8 @@ StageWhat was built
 
 ## 📂 Files
 
-- `SaaS_Subscription_Data.xlsx` — full workbook (raw data, ledger, cohort matrix, dashboard, charts)
-- `SaaS_Project_Summary.png` — project summary graphic
+- `Data/SaaS_Subscription_Data.xlsx` — full workbook (raw data, ledger, cohort matrix, dashboard, charts)
+- `Screenshots/` — dashboard preview images (KPI view, cohort heatmap, plan/region breakdown, MRR waterfall)
 
 ## 👤 Author
 
@@ -57,7 +86,7 @@ Built by Afreen as part of a self-taught data analyst portfolio, targeting data 
 
 ## ▶ Usage
 
-- Open `SaaS_Subscription_Data.xlsx` in Excel (desktop) to view the dashboard, cohort matrix, and supporting tables.
+- Open `Data/SaaS_Subscription_Data.xlsx` in Excel (desktop) to view the dashboard, cohort matrix, and supporting tables.
 - Typical sheets: `Raw_Data`, `Customer_Master`, `Subscription_Ledger`, `Cohort_Retention`, `Dashboard`.
 - All metrics are computed with Excel formulas (SUMIFS/COUNTIFS/XLOOKUP/EDATE); no external code is required.
 
