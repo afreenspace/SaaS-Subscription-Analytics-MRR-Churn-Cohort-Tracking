@@ -1,7 +1,5 @@
 # SaaS Subscription Analytics — MRR, Churn & Cohort Retention
 
-# SaaS Subscription Analytics — MRR, Churn & Cohort Retention
-
 An Excel-based analytics project simulating the monthly revenue analysis performed by Revenue Operations / Business Analyst teams at subscription-based (SaaS) companies. Built as part of a self-directed data analyst portfolio.
 
 ## 📁 Repository Structure
