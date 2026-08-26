@@ -4,8 +4,7 @@ An Excel-based analytics project simulating the monthly revenue analysis perform
 
 ## 📁 Repository Structure
 SaaS-Subscription-Analytics-MRR-Churn-Cohort-Tracking/
-├── Data/
-│ └── SaaS_Subscription_Data.xlsx
+├── SaaS_Subscription_Data.xlsx
 ├── Screenshots/
 │ ├── Key_Metrics_Dashboard.png
 │ ├── Cohort_Retention.png
@@ -75,8 +74,7 @@ Subscription revenue isn't static — every month, customers join, upgrade, down
 
 ## 📂 Files
 
-- `Data/SaaS_Subscription_Data.xlsx` — full workbook (raw data, ledger, cohort matrix, dashboard, charts)
-- `Screenshots/` — dashboard preview images (KPI view, cohort heatmap, plan/region breakdown, MRR waterfall)
+- `SaaS_Subscription_Data.xlsx` — full workbook (raw data, ledger, cohort matrix, dashboard, charts)
 
 ## 👤 Author
 
