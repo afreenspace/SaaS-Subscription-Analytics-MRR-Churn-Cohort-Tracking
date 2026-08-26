@@ -82,7 +82,7 @@ Built by Afreen as part of a self-taught data analyst portfolio, targeting data 
 
 ## ▶ Usage
 
-- Open `Data/SaaS_Subscription_Data.xlsx` in Excel (desktop) to view the dashboard, cohort matrix, and supporting tables.
+- Open SaaS_Subscription_Data.xlsx in Excel (desktop) to view the dashboard, cohort matrix, and supporting tables.
 - Typical sheets: `Raw_Data`, `Customer_Master`, `Subscription_Ledger`, `Cohort_Retention`, `Dashboard`.
 - All metrics are computed with Excel formulas (SUMIFS/COUNTIFS/XLOOKUP/EDATE); no external code is required.
 
